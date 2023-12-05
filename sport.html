@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose a Sport</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            background-image: url("choose.jpg");
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            background-image: url("choose.jpg");
+        }
+
+        nav {
+            background-color: #666;
+            padding: 1em;
+            text-align: center;
+            background-image: url("choose.jpg");
+        }
+
+        nav a {
+            color: rgb(253, 250, 250);
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        .sport-card {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            box-sizing: border-box;
+            transition: transform 0.3s;
+            
+        }
+
+        .sport-card:hover {
+            transform: scale(1.05);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Choose a Sport</h1>
+    </header>
+
+    <nav>
+        <a href="project.html">Home</a>
+    </nav>
+
+    <section>
+        <div class="sport-card">
+            <h2>Football</h2>
+            <p>Enjoy the thrill of the beautiful game with friends and teammates.</p>
+        </div>
+
+        <div class="sport-card">
+            <h2>Basketball</h2>
+            <p>Shoot some hoops and improve your agility on the basketball court.</p>
+        </div>
+
+        <div class="sport-card">
+            <h2>Cricket</h2>
+            <p>Play 20 or 50 over game and feel the excitement of a fast-paced cricket match.</p>
+        </div>
+
+        
+
+    </section>
+
+</body>
+</html>
